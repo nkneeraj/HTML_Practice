@@ -13,7 +13,7 @@ body{
     display: flex;
     flex-flow: column wrap;
     align-content: center;
-    background: tomato;
+    background: rgb(54, 122, 8);
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -42,4 +42,15 @@ label{
 
 input{
     flex: auto;
+}
+
+button{
+    width: 70%;
+    margin: 0 auto;
+}
+
+error-output{
+    font-size: 12px;
+    font-style:  italic;
+    color: red;
 }
