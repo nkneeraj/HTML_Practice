@@ -28,3 +28,18 @@ div{
     justify-content: space-between;
     align-items: center;
 }
+
+label, input, button{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+label{
+    text-align: right;
+    width: 30%;
+    margin-right: 2%;
+}
+
+input{
+    flex: auto;
+}
